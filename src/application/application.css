@@ -1,0 +1,20 @@
+.image1{
+	-fx-background-image: url("img1.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.image2{
+	-fx-background-image: url("img2.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.image3{
+	-fx-background-image: url("img3.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.image4{
+	-fx-background-image: url("img4.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
