@@ -20,10 +20,10 @@
          <children>
             <JFXTextField labelFloat="true" layoutX="46.0" layoutY="188.0" prefHeight="25.0" prefWidth="208.0" promptText="UserName" />
             <JFXPasswordField layoutX="46.0" layoutY="236.0" prefHeight="25.0" prefWidth="208.0" promptText="Password" />
-            <JFXButton layoutX="82.0" layoutY="295.0" prefHeight="25.0" prefWidth="137.0" style="-fx-background-color: blue; -fx-background-radius: 75;" text="GET STARTED" textFill="#fcf9f9" />
+            <JFXButton layoutX="82.0" layoutY="295.0" onAction="#newPane" prefHeight="25.0" prefWidth="137.0" style="-fx-background-color: blue; -fx-background-radius: 75;" text="GET STARTED" textFill="#fcf9f9" />
             <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="112.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@database_data_20916.png" />
+                  <Image url="@../imgLogin/database_data_20916.png" />
                </image>
             </ImageView>
             <JFXButton layoutX="63.0" layoutY="342.0" text="FORGOT YOUR PASSWORD ?" textFill="#07f827">
