@@ -70,11 +70,11 @@ public class ControllerAsistente {
 			System.out.println("No more slides");
 		} else if (showSlide == 1) {
 			translateAnimation(0.5, pane2, 600);
-			showSlide--; // showSlide=0
+			showSlide--; 
 			countLabel.setText("1/3");
 		} else if (showSlide == 2) {
 			translateAnimation(0.5, pane3, 600);
-			showSlide--; // showSlide=1
+			showSlide--; 
 			countLabel.setText("2/3");
 		}
 

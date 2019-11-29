@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerAsistente">
+<AnchorPane prefHeight="600.0" prefWidth="480.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerAsistente">
    <children>
-      <AnchorPane fx:id="pane1" layoutX="133.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #154360;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="pane1" layoutX="133.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" styleClass="degradado" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label layoutX="179.0" layoutY="77.0" text="Tip number 1" textFill="WHITE">
                <font>
@@ -15,14 +15,14 @@
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Esperamos que estos breves tips te sirvan de ayuda en el uso de Data Base" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="Tip 1" textFill="#969696">
+            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020;" text="Tip 1" textFill="#969696">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1F618D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" styleClass="degradado" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label layoutX="179.0" layoutY="77.0" text="Tip number 2" textFill="WHITE">
                <font>
@@ -30,14 +30,14 @@
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Una aplicación de escritorio muy intuitiva y de fácil utilización" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="Tip 2" textFill="#969696">
+            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020;" text="Tip 2" textFill="#969696">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2980B9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="degradado" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label layoutX="179.0" layoutY="77.0" text="Tip number 3" textFill="WHITE">
                <font>
@@ -45,7 +45,7 @@
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Con un solo click serás capaz de insertar, consultar, modificar o eliminar datos" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="Tip 3" textFill="#969696">
+            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020;" text="Tip 3" textFill="#969696">
                <font>
                   <Font size="21.0" />
                </font>
@@ -57,14 +57,14 @@
             </JFXButton>
          </children>
       </AnchorPane>
-      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
+      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 25;" styleClass="homeBTNS" stylesheets="@application.css" text="&gt;" textFill="WHITE">
          <font>
-            <Font size="20.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
+      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 25;" styleClass="homeBTNS" stylesheets="@application.css" text="&lt;" textFill="WHITE">
          <font>
-            <Font size="20.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </JFXButton>
       <Label fx:id="countLabel" alignment="CENTER" layoutX="104.0" layoutY="525.0" prefHeight="17.0" prefWidth="269.0" text="1/3" textAlignment="CENTER" textFill="WHITE">

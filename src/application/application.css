@@ -19,7 +19,7 @@
 	-fx-background-repeat: no-repeat;
 }
 .header {
-	-fx-background-color: #0E19E8;
+	-fx-background-color: #85929E;
 }
 .design1{
 	-fx-background-image: url("../imgHome/dsg1.jpg");
@@ -52,4 +52,8 @@
 }
 .fondoBTN2 {
 	-fx-background-color: #AED6F1;
+}
+.degradado{
+	-fx-background-color: linear-gradient(#2A5058, #BDC3C7);
+    
 }
