@@ -15,9 +15,9 @@ public class Main extends Application {
 			
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("View.fxml"));
 			AnchorPane root = (AnchorPane) loader.load();
-			Scene scene = new Scene(root,800,500);
+			Scene scene = new Scene(root);//800,500(Medidas de principal)
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.initStyle(StageStyle.UNDECORATED);//Quita la parte de arriba de la ventana(Cerrar,Minimizar)
+			primaryStage.initStyle(StageStyle.UNDECORATED);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
